@@ -53,57 +53,59 @@ iframe{
 .botoes{
     display: flex;
     flex-direction: column;
-    margin-top: 29em;
 }
 
 a{
     width: 30px;
     height: 30px;
     padding: 10px;
-    background-color: rgb(98, 98, 111);
-    background-size: 30px;
-    background-repeat: no-repeat;
-    background-position: center;
     border: 0px solid black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.512);
     border-radius: 50%;
     margin: 0.5em 8px 0px auto;
 }
 
-a:hover{
+
+a > img{
+    background-size: 1px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(98, 98, 111);
+    border: 0px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.512);
+    border-radius: 50%;
+    margin: -0.6em;
+    width: 30px;
+}
+a > img:hover{
     border: 2px solid white;
-    padding: 12px;
+    transform: translate(-3px, -3px);
     transition: 0.2s;
 }
 
 #home{
-    background-image: url(imagens/casa.png);
-    background-color: rgb(61, 48, 48)
+    background-color: rgb(61, 48, 48);
 }
 
 #youtube{
-    background-image: url(imagens/youtube.png);
     background-color: rgb(106, 29, 29);
 }
 
 #github{
-    background-image: url(imagens/github.png);
     background-color: rgb(60, 205, 60);
 }
 
 #instagram{
-    background-image: url(imagens/instagram.png);
     background-color: rgb(200, 19, 119);
 }
 
 #twitter{
-    background-image: url(imagens/twitter.png);
     background-color: #50ABF1;
     background-size: 38px;
 }
 
 #facebook{
-    background-image: url(imagens/facebook.png);
-    background-size: 40px;
     background-color: #3A559F;
 }
