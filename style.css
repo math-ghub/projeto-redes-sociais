@@ -1,0 +1,109 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+main{
+    background-image: url(imagens/cenario.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+    height: 50em;
+}
+
+.celular{
+    position: relative;
+    margin: auto;
+    top: -17em;
+    width: 400px;
+    height: 600px;
+}
+
+.front{
+    background-repeat: no-repeat;
+    margin-left: -95px;
+    width: 150%;
+    height: 100%;
+}
+
+.but{
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    width: 15px;
+    top: -69.4em;
+    left: 12.3em;
+}
+
+iframe{
+    width: 15.2em;
+    height: 33.6em;
+    border-radius: 17px;
+    position: relative;
+    top: -35.92em;
+    left: 5.14em;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    margin-top: 29em;
+}
+
+a{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(98, 98, 111);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.512);
+    border-radius: 50%;
+    margin: 0.5em 8px 0px auto;
+}
+
+a:hover{
+    border: 2px solid white;
+    padding: 12px;
+    transition: 0.2s;
+}
+
+#home{
+    background-image: url(imagens/casa.png);
+    background-color: rgb(61, 48, 48)
+}
+
+#youtube{
+    background-image: url(imagens/youtube.png);
+    background-color: rgb(106, 29, 29);
+}
+
+#github{
+    background-image: url(imagens/github.png);
+    background-color: rgb(60, 205, 60);
+}
+
+#instagram{
+    background-image: url(imagens/instagram.png);
+    background-color: rgb(200, 19, 119);
+}
+
+#twitter{
+    background-image: url(imagens/twitter.png);
+    background-color: #50ABF1;
+    background-size: 38px;
+}
+
+#facebook{
+    background-image: url(imagens/facebook.png);
+    background-size: 40px;
+    background-color: #3A559F;
+}
