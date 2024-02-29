@@ -20,7 +20,7 @@ main{
 .celular{
     position: relative;
     margin: auto;
-    top: -17em;
+    bottom: 50vh;
     width: 400px;
     height: 600px;
 }
